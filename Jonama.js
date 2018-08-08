@@ -5,12 +5,10 @@ const myFunction = (message) => {
 
     client.on('message', msg => {
         if (msg.content === '!snake') {
-            message.react('message.guild.emojis.find("snake")');
+            message.react(message.guild.emojis.find("snake"));
         }
-    });
-    client.on('message', msg => {
         if (msg.content === '!snek') {
-            message.react('message.guild.emojis.find("snek")');
+            message.react(message.guild.emojis.find("snek"));
         }
     });
 };
