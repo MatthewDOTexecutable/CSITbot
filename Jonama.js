@@ -15,6 +15,10 @@ async function myFunction(message) {
         if (msg.content === '!beetle') {
             message.react(message.guild.emojis.find("beetle"));
         }
+
+        if (msg.content === '!beetle') {
+            message.react(message.guild.emojis.find("beetle"));
+        }
     });
 }
 
