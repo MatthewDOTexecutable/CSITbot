@@ -1,5 +1,5 @@
-const myFunction = () => {
+async function myFunction () {
 
-};
+}
 
 export default myFunction

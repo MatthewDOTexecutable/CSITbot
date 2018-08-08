@@ -1,4 +1,4 @@
-const myFunction = (message) => {
+async function myFunction(message) {
     message.react('🤔')
         .then(console.log)
         .catch(console.error);
@@ -13,7 +13,7 @@ const myFunction = (message) => {
             message.react('message.guild.emojis.find("snek")');
         }
     });
-};
+}
 
 export default myFunction
 
