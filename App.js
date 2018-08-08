@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-const token = 'your token';
+const token = 'DCQW5yTxC_vWVdEUbywvTlq4V9yrtFua';
 
-const prefix = 'your prefix';
+const prefix = '!';
 
 //Initializes the bot
 bot.on('ready', () => {
