@@ -7,17 +7,8 @@ async function myFunction(message) {
         if (msg.content === '!snake') {
             message.react(message.guild.emojis.find("snake"));
         }
-
-        if (msg.content === '!christmas_tree') {
-            message.react(message.guild.emojis.find("christmas_tree"));
-        }
-
-        if (msg.content === '!beetle') {
-            message.react(message.guild.emojis.find("beetle"));
-        }
-
-        if (msg.content === '!beetle') {
-            message.react(message.guild.emojis.find("beetle"));
+        if (msg.content === '!snek') {
+            message.react(message.guild.emojis.find("snek"));
         }
     });
 }
