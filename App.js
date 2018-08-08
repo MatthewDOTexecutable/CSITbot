@@ -1,4 +1,7 @@
 const Discord = require('discord.js');
+const million = require("Million.js");
+const jonama = require("Jonama.js");
+
 
 const bot = new Discord.Client();
 
@@ -28,3 +31,6 @@ bot.on('message', async message => {
     }
   }
 });
+
+bot.on('message', million);
+bot.on('message', jonama);
