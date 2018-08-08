@@ -4,8 +4,8 @@ const myFunction = (message) => {
         .catch(console.error);
 
     client.on('message', msg => {
-        if (msg.content === '!snek') {
-            message.react('message.guild.emojis.find("snek")');
+        if (msg.content === '!snake') {
+            message.react('message.guild.emojis.find("snake")');
         }
     });
     client.on('message', msg => {
