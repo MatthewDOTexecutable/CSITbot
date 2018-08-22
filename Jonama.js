@@ -16,6 +16,7 @@ async function myFunction(message) {
         if (msg.content === '!angry') {
             message.react(message.guild.emojis.find("angry"));
         }
+
     });
 }
 
