@@ -1,24 +1,23 @@
-async function myFunction(message) {
-    message.react('🤔')
-        .then(console.log)
-        .catch(console.error);
+async function Jonama(message) {
+  message
+    .react("🤔")
+    .then(console.log)
+    .catch(console.error);
 
-    client.on('message', msg => {
-        if (msg.content === '!snake') {
-            message.react(message.guild.emojis.find("snake"));
-        }
-        if (msg.content === '!christmas_tree') {
-            message.react(message.guild.emojis.find("christmas_tree"));
-        }
-        if (msg.content === '!beetle') {
-            message.react(message.guild.emojis.find("beetle"));
-        }
-        if (msg.content === '!angry') {
-            message.react(message.guild.emojis.find("angry"));
-        }
+  let command = message.content.substring(1).split(" ")[0];
 
-    });
+  if (command === "snake") {
+    message.react(message.guild.emojis.find("snake"));
+  }
+  if (command === "christmas_tree") {
+    message.react(message.guild.emojis.find("christmas_tree"));
+  }
+  if (command === "beetle") {
+    message.react(message.guild.emojis.find("beetle"));
+  }
+  if (command === "angry") {
+    message.react(message.guild.emojis.find("angry"));
+  }
 }
 
-export default myFunction
-
+export default Jonama;

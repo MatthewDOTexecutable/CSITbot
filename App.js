@@ -5,7 +5,7 @@ const jonama = require("Jonama.js");
 
 const bot = new Discord.Client();
 
-const token = "DCQW5yTxC_vWVdEUbywvTlq4V9yrtFua";
+const token = "<Token>";
 
 const prefix = "!";
 
